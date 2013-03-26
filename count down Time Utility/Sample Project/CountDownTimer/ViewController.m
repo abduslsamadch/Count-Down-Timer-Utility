@@ -65,5 +65,8 @@
     [obj setDelegate:self];
     [obj startCountDownTimerWithTime:30 andUILabel:timeLabel];
     [button setUserInteractionEnabled:NO];
+    
+    //call followinng method to invalidate current count down timer
+    //[obj invalidateCurrentCountDownTimer];
 }
 @end

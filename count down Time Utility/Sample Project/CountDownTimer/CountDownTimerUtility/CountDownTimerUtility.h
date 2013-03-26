@@ -23,4 +23,5 @@
 }
 @property (retain)id<CountDownTimerProtocol>delegate;
 -(void)startCountDownTimerWithTime:(int)time andUILabel:(UILabel *)currentLabel;
+-(void)invalidateCurrentCountDownTimer;
 @end
