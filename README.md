@@ -1,7 +1,7 @@
 Count-Down-Timer-Utility
 ========================
 
-A utility to implement count down timer
+A utility to implement count down timer.
 Add CountDownTimerUtility.h and CountDownTimerUtility.m to your project.
 Import CountDownTimerUtility.h in your class you want to use count down timer
 Conform CountDownTimerProtocol
