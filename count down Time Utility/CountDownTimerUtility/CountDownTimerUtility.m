@@ -19,6 +19,11 @@
     [self StartCountDownTimer];
 }
 
+-(void)invalidateCurrentCountDownTimer
+{
+    [self InvalidateCountDownTimer];
+}
+
 #pragma mark -
 #pragma mark count Down Timer
 -(void)InvalidateCountDownTimer
